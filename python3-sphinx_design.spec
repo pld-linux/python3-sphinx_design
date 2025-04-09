@@ -1,6 +1,6 @@
-
 %define 	module	sphinx_design
 Summary:	A sphinx extension for designing beautiful web components
+Summary(pl.UTF-8):	Rozszerzenie Sphinksa do projektowania ładnych komponentów WWW
 Name:		python3-%{module}
 Version:	0.6.1
 Release:	1
@@ -23,6 +23,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A sphinx extension for designing beautiful, view size responsive web
 components.
+
+%description -l pl.UTF-8
+Rozszerzenie Sphinksa do projektowania ładnych, reagujących na rozmiar
+widoku komponentów WWW.
 
 %prep
 %setup -q -n %{module}-%{version}
